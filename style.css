@@ -958,11 +958,11 @@ section h2{
     gap:25px;
 }
 
-.product-card{
+.product{
     width:100%;
 }
 
-.product-card img{
+.product img{
     width:100%;
     height:250px;
     object-fit:cover;
@@ -970,7 +970,7 @@ section h2{
 
 /* Premium Gift Boxes */
 
-.gift-container{
+.gift-grid{
     display:grid;
     grid-template-columns:1fr;
     gap:25px;
@@ -1014,13 +1014,16 @@ section h2{
 @media screen and (max-width:768px){
 
 /* Chocolate Gallery */
-
-.gallery{
+.gallery-grid{
     display:grid;
     grid-template-columns:1fr;
     gap:20px;
 }
 
+.gallery-grid img{
+    width:100%;
+    height:250px;
+}
 .gallery img{
     width:100%;
     height:250px;
@@ -1030,10 +1033,20 @@ section h2{
 
 /* Customer Reviews */
 
-.review-container{
+.review-grid{
     display:grid;
     grid-template-columns:1fr;
     gap:20px;
+}
+
+.review-card{
+    width:100%;
+}
+
+.review-card img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
 }
 
 .review{
@@ -1097,6 +1110,4 @@ button{
 img{
     max-width:100%;
     height:auto;
-}
-
 }
