@@ -870,7 +870,7 @@ align-items:center;
 gap:15px;
 padding:0;
 }
-@media (max-width:768px){
+@media (max-width:500px){
 
 .hero{
     flex-direction:column;
@@ -934,7 +934,7 @@ width:220px;
    MOBILE RESPONSIVE PART 2
 =========================== */
 
-@media (max-width:768px){
+@media (max-width:500px){
 
 nav ul{
     display:flex;
@@ -1044,7 +1044,7 @@ section h2{
    MOBILE RESPONSIVE PART 3
 =========================== */
 
-@media screen and (max-width:768px){
+@media screen and (max-width:500px){
 
 /* Chocolate Gallery */
 
