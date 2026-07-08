@@ -870,11 +870,25 @@ align-items:center;
 gap:15px;
 padding:0;
 }
+@media (max-width:768px){
 
 .hero{
-flex-direction:column-reverse;
-text-align:center;
-padding:40px 20px;
+    flex-direction:column;
+    text-align:center;
+}
+
+.left,
+.right{
+    width:100%;
+}
+
+.right img{
+    width:90%;
+    max-width:300px;
+    display:block;
+    margin:25px auto 0;
+}
+
 }
 
 .left,
@@ -883,7 +897,7 @@ width:100%;
 }
 
 .left h1{
-font-size:42px;
+font-size:38px;
 line-height:1.3;
 }
 
@@ -908,13 +922,32 @@ align-items:center;
 .hero-buttons button{
 width:220px;
 }
-
+.hero-stats{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    align-items:center;
 }
+
+
 /* ===========================
    MOBILE RESPONSIVE PART 2
 =========================== */
 
-@media screen and (max-width:768px){
+@media (max-width:768px){
+
+nav ul{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+}
+
+nav ul li a{
+    font-size:18px;
+}
+
+}
 
 /* Section Headings */
 
@@ -1014,16 +1047,13 @@ section h2{
 @media screen and (max-width:768px){
 
 /* Chocolate Gallery */
-.gallery-grid{
+
+.gallery{
     display:grid;
     grid-template-columns:1fr;
     gap:20px;
 }
 
-.gallery-grid img{
-    width:100%;
-    height:250px;
-}
 .gallery img{
     width:100%;
     height:250px;
@@ -1032,22 +1062,6 @@ section h2{
 }
 
 /* Customer Reviews */
-
-.review-grid{
-    display:grid;
-    grid-template-columns:1fr;
-    gap:20px;
-}
-
-.review-card{
-    width:100%;
-}
-
-.review-card img{
-    width:180px;
-    height:180px;
-    object-fit:cover;
-}
 
 .review{
     width:100%;
