@@ -843,3 +843,260 @@ border-radius:30px;
 box-shadow:0 20px 40px rgba(0,0,0,.15);
 
 }
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media screen and (max-width:768px){
+
+body{
+overflow-x:hidden;
+}
+
+nav{
+flex-direction:column;
+padding:15px;
+}
+
+nav h2{
+font-size:30px;
+margin-bottom:15px;
+}
+
+nav ul{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:15px;
+padding:0;
+}
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+padding:40px 20px;
+}
+
+.left,
+.right{
+width:100%;
+}
+
+.left h1{
+font-size:42px;
+line-height:1.3;
+}
+
+.tagline{
+font-size:18px;
+}
+
+.right img{
+width:95%;
+max-width:350px;
+margin-top:25px;
+border-radius:20px;
+}
+
+.hero-buttons{
+display:flex;
+flex-direction:column;
+gap:15px;
+align-items:center;
+}
+
+.hero-buttons button{
+width:220px;
+}
+
+}
+/* ===========================
+   MOBILE RESPONSIVE PART 2
+=========================== */
+
+@media screen and (max-width:768px){
+
+/* Section Headings */
+
+section h2{
+    font-size:32px;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+/* Why Choose Us */
+
+.cards{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.card{
+    width:100%;
+    padding:20px;
+}
+
+/* Menu */
+
+.menu-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.menu-card{
+    width:100%;
+    padding:20px;
+}
+
+/* Best Sellers */
+
+.products{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:25px;
+}
+
+.product-card{
+    width:100%;
+}
+
+.product-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+/* Premium Gift Boxes */
+
+.gift-container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:25px;
+}
+
+.gift-card{
+    width:100%;
+}
+
+.gift-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+/* Customize Box */
+
+.custom-box{
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+}
+
+/* Festival Offers */
+
+.offer-container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.offer-card{
+    width:100%;
+}
+
+}
+/* ===========================
+   MOBILE RESPONSIVE PART 3
+=========================== */
+
+@media screen and (max-width:768px){
+
+/* Chocolate Gallery */
+
+.gallery{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+/* Customer Reviews */
+
+.review-container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.review{
+    width:100%;
+    text-align:center;
+}
+
+.review img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+/* Contact Section */
+
+.contact{
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+}
+
+.contact-info,
+.contact-form{
+    width:100%;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:20px;
+}
+
+footer p{
+    font-size:14px;
+}
+
+/* Floating WhatsApp */
+
+.whatsapp{
+    width:55px;
+    height:55px;
+    font-size:28px;
+    bottom:20px;
+    right:20px;
+}
+
+/* General spacing */
+
+section{
+    padding:50px 20px;
+}
+
+button{
+    width:100%;
+    max-width:250px;
+    margin:auto;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+}
